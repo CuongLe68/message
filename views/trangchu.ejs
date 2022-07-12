@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="layout.css">
+
+    <!-- import jquery and socketio client -->
+    <script src="jquery.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="xuly.js"></script>
+
+</head>
+<body>
+    <div class="wrapper">
+        <!-- đang login -->
+        <div id="loginForm">
+            <h3>WHAT'S YOUR NAME</h3>
+            <input id="txtUsername" type="text">
+            <button id="btnRegister">Register</button>
+        </div>
+
+        <!-- đã login -->
+        <div id="chatForm">
+            <div id="left">
+                <div id="boxTitle">Users Online</div>
+                <div id="boxContent"></div>
+            </div>
+            <div id="right">
+                <div id="sayHi">
+                    hi, <span id="currentUser"></span>
+                    <button id="btnLogout">Logout</button>
+                </div>
+
+                <div id="listMessages"></div>
+                <div id="notification"></div>
+
+                <input type="text" id="txtMessage">
+                <button id="btnSendMessage">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: #ebeef4;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+}
+
+#btnRegister {
+    cursor: pointer;
+}
+
+#left, #rigth {
+    min-height: 300px;
+}
+
+/*** chatForm ***/
+#chatForm {
+    display: flex;
+}
+
+#currentUser{
+    font-weight: 600;
+}
+
+/*** Left ***/
+#left {
+    width: 30%;
+    background-color: #f0f2d0;
+}
+
+#boxTitle {
+    padding: 5px;
+    border: 1px solid #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+#boxContent {
+    padding: 5px;
+    border-top: none;
+    border: 1px solid #333;
+    text-align: center;
+}
+
+/*** Right ***/
+#right {
+    width: 70%;
+    background-color: #d4f9f8;
+    padding-left: 5px;
+}
+
+#sayHi {
+    text-align: right;
+}
+
+#listMessages {
+    height: 200px;
+    background-color: #fcead4;
+    margin-bottom: 10px;
+}
+

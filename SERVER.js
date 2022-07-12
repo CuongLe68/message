@@ -55,5 +55,5 @@ io.on('connection', function(socket) {
 })
 
 app.get('/', (req, res) => {
-    res.render('trangchu')
+    res.render('index')
 })

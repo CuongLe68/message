@@ -1,4 +1,4 @@
-var socket = io('https://cuongle68.github.io/message')
+var socket = io('http://localhost:3000')
 
 //lắng nghe dki thất bại
 socket.on('server-send-dki-thatbai', function() {

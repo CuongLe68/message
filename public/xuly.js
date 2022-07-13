@@ -1,4 +1,4 @@
-var socket = io('http://localhost:3000')
+var socket = io('https://home-message.herokuapp.com/')
 
 //lắng nghe dki thất bại
 socket.on('server-send-dki-thatbai', function() {
